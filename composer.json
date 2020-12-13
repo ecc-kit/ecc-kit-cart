@@ -1,0 +1,35 @@
+{
+    "name": "ecc-kit/ecc-kit-cart",
+    "description": "",
+    "keywords": [
+        "money ",
+        "currency",
+        "cart"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Korshunov",
+            "email": "sergey@korshunov.pro"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.0",
+        "vimeo/psalm": "^4.3.1",
+        "phpstan/phpstan": "^0.12.60"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "EccKit\\Cart\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
